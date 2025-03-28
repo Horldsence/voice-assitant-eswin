@@ -197,7 +197,7 @@ dependencies = [
 requires-dist = [
     { name = "edge-tts", specifier = ">=7.0.0" },
     { name = "pyaudio", specifier = ">=0.2.14" },
-    { name = "vosk", specifier = ">=0.3.45" },
+    { name = "vosk", specifier = "==0.3.45" },
 ]
 
 [[package]]

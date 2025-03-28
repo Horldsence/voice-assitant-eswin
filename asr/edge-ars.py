@@ -9,7 +9,7 @@ def vosk_recognize():
     mic = pyaudio.PyAudio()
     stream = mic.open(format=pyaudio.paInt16, channels=1, 
                      rate=16000, input=True, frames_per_buffer=8192)
-    
+     
     print("开始录音(按Ctrl+C停止)...")
     try:
         while True:
