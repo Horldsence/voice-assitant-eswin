@@ -25,3 +25,6 @@ def vosk_recognize():
         mic.terminate()
 
 vosk_recognize()
+
+
+vosk_recognize()
